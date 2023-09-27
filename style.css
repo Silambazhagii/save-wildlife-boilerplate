@@ -30,14 +30,21 @@ nav,
   background-color: black;
   height: 60px;
   /* Your code goes here */
+  padding-top: 10px;
 }
 
 .container {
   width: 500px;
   /* Your code goes here */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 450px;
+  padding-top: 20px;
 }
 
 .button {
+  position: relative;
+  top: -7px;
   background-color: #ffcc00;
   padding: 8px;
 }
